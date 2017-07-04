@@ -1,0 +1,28 @@
+page-intro {
+   .slide_image img{
+        width: 350px;
+    }
+
+  .button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+// .backgrnd{
+//     background: url(../assets/images/PES.jpg) no-repeat center center fixed; 
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     -o-background-size: cover;
+//     background-size: cover;
+// }
+}
