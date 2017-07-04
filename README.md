@@ -27,5 +27,12 @@ https://help.github.com/articles/working-with-ssh-key-passphrases/
 https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 ```
 
+```bash
+GIT HELP
+$ git add .
+$ git commit -m " "
+$ git push origin master
+```
+
 Substitute ios for android if not on a Mac.
 
