@@ -14,6 +14,11 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class JogadoresPage {
  //variáveis
+  public objeto_jogador = {
+    nome:"Gabriel",
+    vitorias:2
+  }
+
   public nomeUsuario:string = "Gabriel Aires";
   public vitoriaUsuario:number;
   public num1:number = 2;

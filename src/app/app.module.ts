@@ -13,7 +13,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { FeedPageModule } from "../pages/feed/feed.module";
 import { JogadoresPageModule } from "../pages/jogadores/jogadores.module";
 import { IntroPageModule } from "../pages/intro/intro.module";
+import { ConfrontosPageModule } from "../pages/confrontos/confrontos.module";
 
+//criando o modulo http para consumo web
+import { HttpModule } from "@angular/http";
+import { MovieProvider } from '../providers/movie/movie';
 
 @NgModule({
   declarations: [
@@ -22,14 +26,15 @@ import { IntroPageModule } from "../pages/intro/intro.module";
     ContactPage,
     HomePage,
     TabsPage
-    
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
     FeedPageModule,
     JogadoresPageModule,
-    IntroPageModule
+    IntroPageModule,
+    ConfrontosPageModule,
+    HttpModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -42,7 +47,8 @@ import { IntroPageModule } from "../pages/intro/intro.module";
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    MovieProvider
   ]
 })
 export class AppModule {}
