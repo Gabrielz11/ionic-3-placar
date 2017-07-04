@@ -21,6 +21,11 @@ Then, to run it, cd into `myTabs` and run:
 $ ionic cordova platform add ios
 $ ionic cordova run ios
 ```
+```bash
+HELP FOR SSH
+https://help.github.com/articles/working-with-ssh-key-passphrases/
+https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+```
 
 Substitute ios for android if not on a Mac.
 
